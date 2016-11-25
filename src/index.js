@@ -1,6 +1,9 @@
 import React from 'react';
-import {render} from 'react-dom';
+import ReactDOM from 'react-dom';
+import './main.css';
+import App from './App';
+import Main from './bind';
+import Test from './test';
+import Card from './xuanxiang';
 
-import App from './App.js';
-
-render(<App />,document.getElementById('root'));
+ReactDOM.render(<Main />,document.getElementById('root'));
